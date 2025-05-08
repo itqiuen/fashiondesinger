@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="stile.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <title>HAUS</title>
+  
+</head>
+
+<body>
+  <div class="flipbook">
+    <!-- Front Cover with Image -->
+    <div class="hard cover-front">
+      
+      <img src="firstp.jpeg" alt="HAUS" style="width: 100%; height: 100%; object-fit: cover;" />
+    </div>
+  
+    <!-- Blank inner hard page -->
+    <div class="hard"></div>
+  
+    <!-- Page 1 -->
+    <div class="page">
+      <img src="pg1.jpeg" alt="" />
+    </div>
+  
+    <!-- Page 2 -->
+    <div class="page">
+      <img src="pg2.jpeg" />
+    </div>
+  
+    <!-- Page 3 -->
+    <div class="page">
+      <img src="pg3.jpeg" alt="" />
+    </div>
+  
+    <!-- Blank hard back -->
+    <div class="hard"></div>
+  
+    <!-- Back Cover -->
+    <div class="hard" style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+      
+      </small></p>
+
+      <small>𝐁𝐲 𝐋𝐚𝐲𝐚𝐧 𝐤𝐡𝐚𝐥𝐞𝐝</small>
+     
+      <a href="https://www.instagram.com/lb.1design?igsh=cHM1NWw0ZG8xYXh5" target="_blank"
+      style="text-decoration: none; background-color: #c1c1c1; color: white; padding: 6px 14px; border-radius: 14px; font-size: 9px; display: inline-flex; align-items: center;">
+     <i class="fa-brands fa-instagram" style="margin-right: 6px; font-size: 10px;"></i> INSTAGRAM
+   </a>
+   
+      </a>
+    </div>
+    
+    
+    </div>
+  
+  
+  
+  <script src="jquery.js"></script>
+  <script src="turn.js"></script>
+  <script>
+    $(".flipbook").turn({
+      autoCenter: true,
+      direction: "ltr"
+    });
+  </script>
+</body>
+
+</html>
